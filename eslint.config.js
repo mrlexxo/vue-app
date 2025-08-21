@@ -1,6 +1,6 @@
 import vue from "eslint-plugin-vue";
-import js from "@eslnt/js";
-import prettier, { languageOptions } from "@vue/eslint-config-prettier";
+import js from "@eslint/js";
+import prettier from "@vue/eslint-config-prettier";
 
 export default [
     js.configs.recommended,
@@ -14,7 +14,7 @@ export default [
         },
         rules: {
             "vue/multi-word-component-names": "off",
-            "vue/require-default-prop": "off"
+            "vue/require-default-prop": "off",
         }
-    }
+    },
 ]
